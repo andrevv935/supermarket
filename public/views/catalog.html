@@ -3,27 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog</title>
+    <title>La Alegria | Catalog</title>
 </head>
 <body>
     <header>
-        <img id="logo" href="/public/resources/logo.png">
+        <img id="logo" src="/public/resources/logo.png">
         <h1 id="header-message">Our Catalog</h1>
-        <div id="login-register">
-            <button id="shopping cart">cart</button>
-            <button id="login">log in</button>
-            <button id="register">register</button>
+        <!-- If user hasn't logged in, header shows this on the right corner -->
+        <div id="user-registered">
+            <button class="shopping-cart">Cart</button>
+            <button id="login">Log in</button>
+            <button id="register">Register</button>
+        </div>
+        <!-- If user has logged in, header shows this on the right corner -->
+        <div id="user-registered">
+            <button class="shopping-cart">Cart</button>
+            <span id="user">User</span>
+            <container id="user-menu">
+                <button id="profile">Profile</button>
+                <button id="orders">My orders</button>
+                <button id="configuration">Configuration</button>
+                <button id="logout">Log out</button>
+            </container>
         </div>
     </header>
     <div id="sidebar">
         <!-- Here will be the different ways to customize the order and filter the products someone wants to see -->
     </div>
-    <!-- Here will be the products -->
-    <div id="view-options">
-        <button id="show-more">show more</button>
-        <button id="show-all">show all</button>
-        <p>showing 0/0 products</p>
-    </div>
+    <container>
+        <div id="products">
+            <!-- Here will be the products -->
+            <!--
+            <img src='/public/resources/products/productimg.png'>
+            <h2>Product name</h2>
+            <p>Price: $XX.XX</p>
+            <p>Stock: XX</p>
+            -->
+        </div>
+        <div id="view-options">
+            <button id="show-more">Show more</button>
+            <button id="show-all">Show all</button>
+            <p>Showing 0/0 products</p>
+        </div>
+    </container>
     <footer>
         Designed by: Andre Villegas & Leonardo Correa
     </footer>

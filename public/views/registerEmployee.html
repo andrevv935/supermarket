@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Alegria | New employee</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="/public/resources/logo.png" alt="Logo">
+        <h1 id="header-message">New Employee</h1>
+    </header>
+    <container>
+        <form id="register-employee-form">
+            <div id="form-group">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                <input type="date" id="birth-date" name="birth-date" placeholder="Birth Date" required><br>
+
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+                <input type="text" id="phone-number" name="phone" placeholder="Employee phone number" required>
+                <input type="number" id="id" name="id" placeholder="ID" required><br>
+
+                <div id="address-group">
+                    <input type="text" id="address" name="address" placeholder="Address" required>
+                    <input type="text" id="city" name="city" placeholder="City">
+                    <input type="number" id="postal-code" name="postal-code" placeholder="Postal code"><br>
+                </div>
+                
+                <div id="job-group">
+                    <input type="text" id="position" name="position" placeholder="Position" required>
+                    <input type="text" id="salary" name="salary" placeholder="Salary" required>
+                    <input type="number" id="employee-id" name="employee-id" placeholder="Employee ID" required>
+                </div>
+
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+
+                <div id="btn-group">
+                    <button type="reset" id="cancel-btn">Cancel</button>
+                    <button type="submit" id="register-btn">Register</button>
+                </div>
+            </div>
+        </form>
+    </container>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Alegria | Register Product</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="/public/resources/logo.png" alt="Logo">
+        <h1 id="header-message">Register Product</h1>
+    </header>
+    <container>
+        <form id="register-product-form">
+            <div id="form-group">
+                <input type="text" id="name" name="name" placeholder="Product Name" required>
+                <input type="number" id="price" name="price" placeholder="Price" required><br>
+
+                <input type="number" id="id" name="id" placeholder="Product ID" required>
+                <input id="barcode" name="barcode" placeholder="Barcode" required><br>
+
+                <input type="text" id="category" name="category" placeholder="Category" required>
+                <input type="text" id="brand" name="brand" placeholder="Brand" required><br>
+
+                <input type="number" id="stock" name="stock" placeholder="Stock Quantity" required><br>
+
+                <input type="text" id="description" name="description" placeholder="Description" required>
+
+                <div id="img-div">
+                    <input id="image" name="image" type="file" accept="image/*" required>
+                    <button type="button" id="upload-btn">Upload Image</button>
+                </div>
+                
+                <div id="btn-group">
+                    <button type="reset" id="cancel-btn">Cancel</button>
+                    <button type="submit" id="register-btn">Register</button>
+                </div>
+            </div>
+        </form>
+    </container>
+    <footer>
+        <p>
+            Designed by: Andre Villegas & Leonardo Correa
+        </p>
+    </footer>
+</body>
+</html>

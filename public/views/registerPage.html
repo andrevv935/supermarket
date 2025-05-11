@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Alegria | Register</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="/public/resources/logo.png" alt="Logo">
+        <h1 id="header-message">Register</h1>
+    </header>
+    <container>
+        <form id="register-form" action="/register" method="POST">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required><br>
+
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+                <input type="number" id="phone" name="phone" placeholder="Phone number" required><br>
+
+                <div id="payment-method">
+                    <select>Payment method</select>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="debit-card">Debit Card</option>
+                    <option value="cash">Cash</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="binance">Binance</option>
+                </div>
+
+                <input type="text" id="address" name="address" placeholder="Address" required><br>
+
+                <input type="password" id="password" name="password" placeholder="Password" required><br>
+                <input type="password" id="verify-password" name="verify-password" placeholder="Verify Password" required><br>
+            </div>
+            <p>
+                Have an account? <a href="loginPage.html">Log in</a>
+            </p>
+            <div id="btn-group">
+                <button type="reset" id="cancel-button">Cancel</button>
+                <button type="submit" id="register-button">Register</button>
+            </div>
+        </form>
+    </container>
+    <footer>
+        <p>
+            Designed by: Andre Villegas & Leonardo Correa
+        </p>
+    </footer>
+</body>
+</html>
