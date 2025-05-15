@@ -1,0 +1,104 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+body{
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #5abd42;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#header-message{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+
+container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 700px;
+}
+
+#login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px; 
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Botón de Login */
+#login-btn {
+    background-color: #5abd42;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#login-btn:hover {
+    background-color: #5abd42;
+    transform: scale(1.05);
+}
+
+
+/*
+p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+*/
+
+/*
+p a {
+    color: #5abd42;
+    text-decoration: none; /*todo esto lo puedes quitar, lo puse para trabajar con los links pero no se si sirve
+    font-weight: bold;                        
+} 
+    */ 
+
+/*
+p a:hover {
+    text-decoration: underline;
+}
+
+*/
+
+footer {
+    background-color: #5abd42;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
