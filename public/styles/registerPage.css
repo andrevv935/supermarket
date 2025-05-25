@@ -1,0 +1,95 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'); /*importacion de bootstrap*/
+
+header{
+    background-color: #5abd42;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f9fa; /*deberia ser el mismo background para todo(?*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    margin: 0;
+
+}
+
+#logo{
+    height: 45px;/*aqui deberian ir mas cositas pero no tengo el logo pues*/
+}
+
+#header-message{
+    font-size: 1.9rem;
+
+}
+
+.container, main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+#register-form{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+input:focus,
+select:focus{
+    border-color: #459630;
+    outline: none;
+
+}
+
+button{
+    background-color: white;
+    color: #5abd42;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#459630;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 00 4px 8px rgba(72, 255, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+
+}
+
+
+footer{
+    background-color: #5abd42;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

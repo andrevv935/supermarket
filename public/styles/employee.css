@@ -1,0 +1,83 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'); /*importacion de bootstrap*/
+
+
+header{
+    background-color: #5abd42;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    top: 0;
+}
+
+#logo{
+    width: 20px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+#header-message{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+button{     /*i aint sure if this css can apply into the div option in the html, u should check it out btw*/
+    background-color: white;
+    color: #5abd42;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+#sidebar{
+    padding: 1rem 2rem;
+    background-color: #84ff74;
+}
+
+.container,
+main{
+    flex: 1;
+    padding: 2rem;
+    overflow-x: auto;
+}
+
+#employees-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+#employees-table thead{
+    background-color: #5abd42;
+    color: white;
+}
+
+
+#employees-table th,
+#exployees-table td{
+    padding: 0.9rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#view-options { /*im talkin bout this view option*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
